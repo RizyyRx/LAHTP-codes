@@ -1,0 +1,19 @@
+<h1>Arrays</h1>
+<?php
+$arr=[1,2,3,4,"milk",2.5];
+for($i=0;$i<count($arr);$i++){
+    print($arr[$i]);
+?>
+<br>
+<?php 
+}
+?>
+<hr>
+<?php
+$array=["one"=>1,"two"=>2,3=>"three","you"=>"nigga"];
+print($array["you"]);
+?>
+<hr>
+<?php
+print_r($arr);
+?>
